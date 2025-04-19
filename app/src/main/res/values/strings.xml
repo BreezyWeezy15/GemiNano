@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GeminiNano</string>
+    <string name="kotlin_entry_title" translatable="false">Run the demo written in Kotlin</string>
+    <string name="java_entry_title" translatable="false">Run the demo written in Java</string>
+    <string name="button_send" translatable="false">Send</string>
+    <string name="generating" translatable="false">Generating...</string>
+    <string name="streaming_switch" translatable="false">Streaming</string>
+    <string name="hint_temperature" translatable="false">Temperature</string>
+    <string name="hint_top_k" translatable="false">TopK</string>
+    <string name="hint_max_output_tokens" translatable="false">MaxOutputTokens</string>
+    <string name="pref_key_temperature" translatable="false">pk_temp</string>
+    <string name="pref_key_top_k" translatable="false">pk_topk</string>
+    <string name="pref_key_max_output_tokens" translatable="false">pk_mot</string>
+    <string name="button_change_config" translatable="false">Change config</string>
+    <string name="button_save" translatable="false">Save</string>
+    <string name="button_cancel" translatable="false">Cancel</string>
+    <string name="model_unavailable" translatable="false">Model is unavailable yet and downloading in background</string>
+    <string name="prompt_is_empty" translatable="false">Please enter an non empty prompt</string>
+    <string name="empty" translatable="false"/>
+</resources>
