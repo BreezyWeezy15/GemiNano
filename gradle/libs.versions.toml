@@ -1,9 +1,6 @@
 [versions]
 agp = "8.9.0"
-aicore = "0.0.1-exp01"
-aicoreClient = "0.1.0-alpha03"
-aicoreVersion = "0.0.1-exp02"
-generativeai = "0.6.0"
+aicore = "0.0.1-exp02"
 kotlin = "2.1.0"
 coreKtx = "1.16.0"
 junit = "4.13.2"
@@ -14,16 +11,12 @@ material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
 generativeaiVersion = "0.9.0"
+common = "0.10.0"
 
 [libraries]
 
 aicore = { module = "com.google.ai.edge.aicore:aicore", version.ref = "aicore" }
-aicore-client = { module = "com.google.ai.client.aicore:aicore-client", version.ref = "aicoreClient" }
-aicore-v001exp02 = { module = "com.google.ai.edge.aicore:aicore", version.ref = "aicoreVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-generativeai = { module = "com.google.ai.client.generative:generativeai", version.ref = "generativeai" }
-generativeai-core = { module = "com.google.ai.client.generative:generativeai-core", version.ref = "generativeai" }
-generativeai-extension = { module = "com.google.ai.client.generative:generativeai-extension", version.ref = "generativeai" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -32,6 +25,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 google-generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeaiVersion" }
+common = { group = "com.google.ai.client.generativeai", name = "common", version.ref = "common" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
